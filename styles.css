@@ -2,3 +2,8 @@
 
 @media(max-width:700px){.stores{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;max-width:340px}.store{min-width:0;gap:7px;padding:10px;min-height:58px}.store svg{width:20px;height:24px;flex-shrink:0}.store small{font-size:10px}.store strong{font-size:17px;white-space:nowrap}}
 @media(max-width:360px){.store{padding:9px 7px;gap:5px}.store svg{width:17px}.store strong{font-size:15px}.store small{font-size:9px}}
+
+/* Compact hero with a tighter crop around the player. */
+.hero{padding-top:12px;padding-bottom:36px}.hero-image{height:520px}.hero-image>img{object-position:50% 30%}.hero-image:after{display:none}
+@media(min-width:701px) and (max-width:950px){.hero-image{height:500px}}
+@media(max-width:700px){.hero{padding-top:20px;padding-bottom:24px;gap:24px}.hero-image{height:340px}.hero-image>img{object-position:50% 28%}}
