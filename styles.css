@@ -10,3 +10,5 @@
 
 /* Keep each step marker aligned with its heading. */
 .steps{margin-top:28px}.steps article{display:grid;grid-template-columns:12px minmax(0,1fr);column-gap:12px;align-content:start;border-top:0;padding:0}.steps .number{position:static;margin:0;font-size:14px;line-height:29.9px}.steps h3{grid-column:2;margin-bottom:12px}.steps p{grid-column:2}
+
+.values .eyebrow{margin-bottom:16px}
