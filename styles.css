@@ -16,3 +16,6 @@
 .header .nav-login{background:transparent;color:#f6f7f2;font:inherit;font-weight:700;opacity:1;cursor:default;line-height:inherit}
 @media(max-width:700px){.header nav{gap:8px}.header .nav-cta{font-size:12px;padding:8px 10px;white-space:nowrap}}
 @media(max-width:360px){.header .brand{width:100px}.header nav{gap:6px}.header .nav-cta{padding:8px}}
+
+.header .nav-login{display:inline-flex;align-items:center;justify-content:center;gap:7px}.nav-login svg{width:16px;height:16px;flex-shrink:0}
+@media(max-width:360px){.header .nav-login{gap:5px}.nav-login svg{width:14px;height:14px}}
