@@ -19,3 +19,6 @@
 
 .header .nav-login{display:inline-flex;align-items:center;justify-content:center;gap:7px}.nav-login svg{width:16px;height:16px;flex-shrink:0}
 @media(max-width:360px){.header .nav-login{gap:5px}.nav-login svg{width:14px;height:14px}}
+
+/* Display the complete branded hero artwork without cropping the logo. */
+.hero-image>img{object-fit:contain;object-position:center}
