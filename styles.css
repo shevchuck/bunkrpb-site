@@ -12,3 +12,7 @@
 .steps{margin-top:28px}.steps article{display:grid;grid-template-columns:12px minmax(0,1fr);column-gap:12px;align-content:start;border-top:0;padding:0}.steps .number{position:static;margin:0;font-size:14px;line-height:29.9px}.steps h3{grid-column:2;margin-bottom:12px}.steps p{grid-column:2}
 
 .values .eyebrow{margin-bottom:16px}
+
+.header .nav-login{background:transparent;color:#f6f7f2;font:inherit;font-weight:700;opacity:1;cursor:default;line-height:inherit}
+@media(max-width:700px){.header nav{gap:8px}.header .nav-cta{font-size:12px;padding:8px 10px;white-space:nowrap}}
+@media(max-width:360px){.header .brand{width:100px}.header nav{gap:6px}.header .nav-cta{padding:8px}}
