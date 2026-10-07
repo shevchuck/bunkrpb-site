@@ -22,3 +22,6 @@
 
 /* Display the complete branded hero artwork without cropping the logo. */
 .hero-image>img{object-fit:contain;object-position:center}
+
+.header .nav-login{cursor:pointer}.header .nav-login:hover{color:var(--lime)}
+@media(max-width:700px){.header nav>a.nav-login{display:inline-flex}}
