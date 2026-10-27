@@ -6,3 +6,8 @@
 @media(max-width:760px){.screenshot.reward-progress{width:260px}}
 
 .screenshot.quickstart{width:420px;max-width:100%}.screenshot.nav-example{width:300px;max-width:100%;margin-top:28px}
+
+/* Balance the admissions screenshot with the adjacent player confirmation. */
+.screenshot.counter-example{width:330px;max-width:100%}
+@media(max-width:1000px){.screenshot.counter-example{width:285px}}
+@media(max-width:760px){.screenshot.counter-example{width:260px}}
